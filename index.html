@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cat Clicker Riot Edition</title>
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+
+    <!-- riot.js Script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/riot/3.11.1/riot+compiler.min.js"></script>
+
+    <!-- riot tags -->
+    <script src="views/view-list.tag" type="riot/tag"></script>
+    <script src="views/view-main.tag" type="riot/tag"></script>
+
+    <header>
+        <h1>Cat Clicker riot.js Edition</h1>
+    </header> 
+
+    <section>
+        <nav>
+            <!-- riot view-list tag -->
+            <view-list></view-list>
+        </nav>
+    <article>
+            <!-- riot view-main tag -->
+            <view-main></view-main>
+    </article>
+    </section>  
+
+     <!-- riot main function -->
+    <script src="js/app.js"/>
+</body>
+</html>
